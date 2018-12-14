@@ -1,25 +1,25 @@
 .cont_header {
     width: 100%;
-    height: 20%;
+    height: 100vh;
     background-color: rgb(230, 27, 27);
     color: aliceblue;
-    -webkit-box-shadow: 0px 6px 5px 0px rgba(130, 126, 130, 1);
-    -moz-box-shadow: 0px 6px 5px 0px rgba(130, 126, 130, 1);
-    box-shadow: 0px 6px 5px 0px rgba(130, 126, 130, 1);
+    -webkit-box-shadow: 0px 6px 5px 0px #827e82;
+    -moz-box-shadow: 0px 6px 5px 0px #827e82;
+    box-shadow: 0px 6px 5px 0px #827e82;
     z-index: 20;
 }
 
 article>img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 51px 0px rgba(224,221,224,1);
--moz-box-shadow: 0px 0px 51px 0px rgba(224,221,224,1);
-box-shadow: 0px 0px 51px 0px rgba(224,221,224,1);
+    /* border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(224,221,224,1);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(224,221,224,1);
+    box-shadow: 0px 0px 14px 0px rgba(224,221,224,1); */
 }
 
 .menu_nav {
-    padding: 20px;
+    padding: 50px;
     font-family: 'Raleway', sans-serif;
     color: aliceblue;
     text-decoration: none;
@@ -27,9 +27,8 @@ box-shadow: 0px 0px 51px 0px rgba(224,221,224,1);
 
 .sobre_mi {
     font-family: 'Montserrat', sans-serif;
-    font-size: 17pt;
-    margin-left: 20px;
-    width: 500px;
+    font-size: 30pt;
+    width: 800px;
     margin-top: 50px;
 }
 
@@ -73,3 +72,82 @@ article>a {
     font-family: 'Raleway', sans-serif;
     font-size: 14pt
 }
+.segunda_seccion{
+    background-color: rgb(230, 27, 27);
+    color: aliceblue;
+    height: 300px;
+    -webkit-box-shadow: 0px 1px 8px 10px rgba(130,126,130,1);
+    -moz-box-shadow: 0px 1px 8px 10px rgba(130,126,130,1);
+    box-shadow: 0px 1px 8px 10px rgba(130,126,130,1);
+}
+#corazon{
+    width: 50px;
+    height: 50px;
+}
+.titulo_seccion2{
+    text-align: center;
+    padding-top:50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.corazones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tecnologias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+
+}
+.tecnologias>span{
+    margin-left: 50px;
+}
+.tercera_seccion{
+    width: 100%;
+    height: 100vh;
+}
+.cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .polaroid {
+    margin: 20px;
+    height: 295px;
+    width: 290px;
+    padding: 15px;
+    background-color: #e9e9e9;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(5deg); 
+  }
+  
+  .photo {
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 0 50px rgba(99, 99, 80, 0.8);
+    height: 210px;
+    width: 260px;
+    background-color: white;
+  }
+  
+  .polaroid h4 {
+    font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #2a2b2b;
+    margin: 15px 0;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.75;
+  }
+  .pol1{
+      margin-right:50px;
+  }
+  .pol2{
+      margin-left: 50px;
+  }
