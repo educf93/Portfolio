@@ -1,7 +1,7 @@
 .cont_header {
     width: 100%;
     height: 100vh;
-    background-color: rgb(230, 27, 27);
+    background-color:#1c64b8;
     color: aliceblue;
     -webkit-box-shadow: 0px 6px 5px 0px #827e82;
     -moz-box-shadow: 0px 6px 5px 0px #827e82;
@@ -36,6 +36,7 @@ article>img {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 450px;
     justify-content: center;
     padding: 20px;
     text-align: center;
@@ -73,9 +74,9 @@ article>a {
     font-size: 14pt
 }
 .segunda_seccion{
-    background-color: rgb(230, 27, 27);
+    background-color: #1c64b8;
     color: aliceblue;
-    height: 300px;
+    height: 400px;
     -webkit-box-shadow: 0px 1px 8px 10px rgba(130,126,130,1);
     -moz-box-shadow: 0px 1px 8px 10px rgba(130,126,130,1);
     box-shadow: 0px 1px 8px 10px rgba(130,126,130,1);
@@ -100,10 +101,6 @@ article>a {
     justify-content: center;
     font-family: 'Raleway', sans-serif;
     margin-top: 20px;
-
-}
-.tecnologias>span{
-    margin-left: 50px;
 }
 .tercera_seccion{
     width: 100%;
@@ -150,4 +147,27 @@ article>a {
   }
   .pol2{
       margin-left: 50px;
+  }
+  .img_tec{
+      width: 150px;
+      height: 150px;
+      margin-left: 50px;
+  }
+  .img_tec.primero{
+      margin:0;
+  }
+  .social_media{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .social_media>a>img{
+      width: 50px;
+      height: 50px;
+  }
+  .social_media>a{
+      font-size: 18pt;
+      margin-right: 30px;
   }
