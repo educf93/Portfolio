@@ -40,6 +40,7 @@ article>img {
     justify-content: center;
     padding: 20px;
     text-align: center;
+    z-index: 2;
 }
 
 article>a {
@@ -151,7 +152,6 @@ article>a {
   .img_tec{
       width: 150px;
       height: 150px;
-      margin-left: 50px;
   }
   .img_tec.primero{
       margin:0;
@@ -170,4 +170,36 @@ article>a {
   .social_media>a{
       font-size: 18pt;
       margin-right: 30px;
+  }
+  .foto_yo{
+      width: 400px;
+      height: 450px;  
+      z-index: 0;
+  }
+  .pixel_art1{
+      z-index: 1
+  }
+  .cont_sobremi>h1{
+      z-index: 1;
+  }
+  .cuarta_seccion{
+      width: 100%;
+      height: 100vh;
+  }
+  .textarea_contacto{
+      resize: none;
+  }
+  label>input{
+      margin-left: 10px;
+  }
+  .formulario_contacto{
+      padding: 20px;
+      font-family: 'Raleway', sans-serif;
+  }
+  .enviar>span>img{
+    width: 40px;
+    height: 40px;
+  }
+  .enviar>span{
+      font-size: 20pt;
   }
